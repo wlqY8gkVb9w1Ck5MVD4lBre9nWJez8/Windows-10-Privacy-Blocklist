@@ -1,0 +1,119 @@
+# Blocklist experiments.
+
+# The following endpoints are for Skype.
+apps.skype.com
+pricelist.skype.com
+ui.skype.com
+
+# THE BELOW DOMAINS ARE FROM THE OFFICIAL WINDOWS 10 ENTERPRISE 1903 DOCUMENTATION: 
+# https://docs.microsoft.com/en-us/windows/privacy/manage-windows-1903-endpoints
+
+# "The following endpoints are used to download updates to the Weather app Live Tile. If you turn off traffic to this endpoint, no Live Tiles will be updated."
+blob.weather.microsoft.com
+tile-service.weather.microsoft.com
+
+# The following endpoint is used for OneNote Live Tile. 
+cdn.onenote.net/livetile/?Language=en-US
+
+# The following endpoint is used for Twitter updates. 
+.twimg.com
+
+# The following endpoint is used for Candy Crush Saga updates.
+candycrushsoda.king.com
+
+# The following endpoint is used by the Photos app to download configuration files, and to connect to the Office 365 portal's shared infrastructure, including Office in a browser.
+evoke-windowsservices-tas.msedge.net
+
+#The following endpoint is used for by the Microsoft Wallet app.
+wallet.microsoft.com
+
+# The following endpoint is used by the Groove Music app for update HTTP handler status.
+mediaredirect.microsoft.com
+
+# The following endpoints are used when using the Whiteboard app.
+int.whiteboard.microsoft.com
+wbd.ms
+whiteboard.microsoft.com
+whiteboard.ms
+
+# The following endpoints are related to Azure.
+wd-prod-fe.cloudapp.azure.com
+ris-prod-atm.trafficmanager.net
+validation-v2.sls.trafficmanager.net
+
+# The following endpoint is used to get images that are used for Microsoft Store suggestions.
+store-images.*microsoft.com
+
+# The following endpoints are related to Cortana and Live Tiles.
+www.bing.com/client
+www.bing.com
+www.bing.com/proactive
+www.bing.com/threshold/xls.aspx
+exo-ring.msedge.net
+fp.msedge.net
+fp-vp.azureedge.net
+odinvzc.azureedge.net
+spo-ring.msedge.net
+
+# The following endpoints are used by the Connected User Experiences and Telemetry component and connects to the Microsoft Data Management service.
+v10.events.data.microsoft.com
+v10.vortex-win.data.microsoft.com/collect/v1
+www.microsoft.com
+
+# The following endpoints are used by Windows Error Reporting.
+co4.telecommand.telemetry.microsoft.com
+cs11.wpc.v0cdn.net
+cs1137.wpc.gammacdn.net
+modern.watson.data.microsoft.com*
+watson.telemetry.microsoft.com
+
+# The following endpoints are used for location data.
+inference.location.live.net
+location-inference-westus.cloudapp.net
+
+# The following endpoints are used to check for updates to maps that have been downloaded for offline use.
+*g.akamaiedge.net
+maps.windows.com
+
+# This traffic is related to the Microsoft Edge browser.
+iecvlist.microsoft.com
+
+# The following endpoints are used to connect to the Office 365 portal's shared infrastructure, including Office in a browser.
+*.c-msedge.net
+*.e-msedge.net
+*.s-msedge.net
+nexusrules.officeapps.live.com
+ocos-office365-s2s.msedge.net
+officeclient.microsoft.com
+outlook.office365.com
+client-office365-tas.msedge.net
+www.office.com
+onecollector.cloudapp.aria
+v10.events.data.microsoft.com/onecollector/1.0/
+self.events.data.microsoft.com
+
+# The following endpoint is used to connect the Office To-Do app to its cloud service.
+to-do.microsoft.com
+
+# The following endpoints are related to OneDrive. If you turn off traffic for these endpoints, anything that relies on g.live.com to get updated URL information will no longer work.
+g.live.com/1rewlive5skydrive/*
+msagfx.live.com
+oneclient.sfx.ms
+
+# The following endpoint is used as a way for apps to dynamically update their configuration. Apps such as System Initiated User Feedback and the Xbox app use it.
+cy2.settings.data.microsoft.com.akadns.net
+settings.data.microsoft.com
+settings-win.data.microsoft.com
+
+# The following endpoint is used to retrieve Skype configuration values.
+browser.pipe.aria.microsoft.com
+config.edge.skype.com
+s2s.config.skype.com
+skypeecs-prod-usw-0-b.cloudapp.net
+
+# The following endpoints are used to retrieve Windows Spotlight metadata that describes content, such as references to image locations, as well as suggested apps, Microsoft account notifications, and Windows tips. If you turn off traffic for these endpoints, Windows Spotlight will still try to deliver new lock screen images and updated content but it will fail; suggested apps, Microsoft account notifications, and Windows tips will not be downloaded.
+*.search.msn.com
+arc.msn.com
+g.msn.com*
+query.prod.cms.rt.microsoft.com
+ris.api.iris.microsoft.com
