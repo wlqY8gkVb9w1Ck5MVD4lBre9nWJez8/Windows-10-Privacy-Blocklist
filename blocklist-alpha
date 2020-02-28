@@ -1,7 +1,13 @@
 # Blocklist experiments.
 
+# ===================================
 # THE BELOW DOMAINS ARE FROM THE OFFICIAL WINDOWS 10 NON-ENTERPRISE v1903 DOCUMENTATION:
 # https://docs.microsoft.com/en-us/windows/privacy/windows-endpoints-1903-non-enterprise-editions
+# ===================================
+
+# ===================================
+# WINDOWS 10 FAMILY/HOME
+# ===================================
 
 # Microsoft Office Telemetry
 *.aria.microsoft.com*
@@ -139,8 +145,270 @@ www.bing.com*
 # Microsoft Office
 www.office.com
 
+# ===================================
+# WINDOWS 10 PRO
+# ===================================
+
+# Azure
+*.cloudapp.azure.com
+
+# Microsoft Store
+*.displaycatalog.md.mp.microsoft.com.akadns.net
+
+# Used by OfficeHub to get the metadata of Office apps
+*.e-msedge.net
+
+# Used to check for updates to maps that have been downloaded for offline use
+*.g.akamaiedge.net
+
+# Used by OfficeHub to get the metadata of Office apps
+*.s-msedge.net
+
+# Office
+*c-msedge.net
+
+# Maps application
+a1158.g.akamai.net
+
+# Used to retrieve Windows Spotlight metadata
+arc.msn.com*
+
+# Microsoft Store
+blob.mwh01prdstr06a.store.core.windows.net
+
+# Microsoft Office
+browser.pipe.aria.microsoft.com
+
+# Bubble Witch application
+bubblewitch3mobile.king.com
+
+# Candy Crush application
+candycrush.king.com
+
+# Microsoft OneNote
+cdn.onenote.net
+
+# Windows Error Reporting
+co4.telecommand.telemetry.microsoft.com.akadns.net
+
+# Microsoft Skype
+config.edge.skype.com
+
+# Windows Telemetry
+cs11.wpc.v0cdn.net
+
+# Used to communicate with Microsoft Store
+cy2.licensing.md.mp.microsoft.com.akadns.net
+cy2.purchase.md.mp.microsoft.com.akadns.net
+cy2.settings.data.microsoft.com.akadns.net
+
+# Microsoft Office
+e-0009.e-msedge.net
+
+# Maps Application
+e10198.b.akamaiedge.net
+
+# Microsoft OneDrive
+g.live.com
+
+# Used to retrieve Windows Spotlight metadata
+g.msn.com.nsatc.net
+
+# Microsoft Edge
+iecvlist.microsoft.com
+
+# Microsoft Store
+img-prod-cms-rt-microsoft-com.akamaized.net
+
+# Used for location data
+location-inference-westus.cloudapp.net
+
+# Maps application
+maps.windows.com
+
+# Used by Windows Error Reporting
+modern.watson.data.microsoft.com.akadns.net
+
+# OneDrive
+msagfx.live.com
+oneclient.sfx.ms
+
+# Microsoft Store
+pti.store.microsoft.com
+
+# Used to retrieve Windows Spotlight metadata
+ris.api.iris.microsoft.com.akadns.net
+
+# Azure
+ris-prod-atm.trafficmanager.net
+
+# Microsoft Skype
+s2s.config.skype.com
+
+# Application Settings
+settings-win.data.microsoft.com
+
+# Microsoft Store
+share.microsoft.com
+
+# Microsoft Skype
+skypeecs-prod-usw-0.cloudapp.net
+
+# Microsoft Store
+storecatalogrevocation.storequality.microsoft.com
+store-images.microsoft.com
+
+# Used to download updates to the Weather app Live Tile
+tile-service.weather.microsoft.com/*
+
+# Microsoft Office
+v10.events.data.microsoft.com*
+
+# Used to serve office 365 experimentation traffic
+vip5.afdorigin-prod-am02.afdogw.com
+
+# Telemetry
+watson.telemetry.microsoft.com
+
+# Microsoft Office
+wusofficehome.msocdn.com
+
+# Cortana and Search
+www.bing.com
+
+# Diagnostic
+www.microsoft.com
+
+# Microsoft Office
+www.office.com
+
+# ===================================
+# WINDOWS 10 EDUCATION
+# ===================================
+
+# Used to check for updates to maps that have been downloaded for offline use
+*.b.akamaiedge.net
+
+# Used by OfficeHub to get the metadata of Office apps
+*.c-msedge.net
+*.e-msedge.net
+
+# Used to check for updates to Maps that have been downloaded for offline use
+*.g.akamaiedge.net
+
+# Microsoft Store
+*.licensing.md.mp.microsoft.com.akadns.net
+*.settings.data.microsoft.com.akadns.net
+
+# Used to retrieve Skype configuration values
+*.skype.com*
+
+# Used by OfficeHub to get the metadata of Office apps
+*.s-msedge.net
+
+# Used by Windows Error Reporting
+*.telecommand.telemetry.microsoft.com*
+
+# Diagnostic Data
+*.wpc.*.net
+
+# Microsoft Store
+*displaycatalog.md.mp.microsoft.com.akadns.net
+
+# Maps
+a1158.g.akamai.net
+a122.dscg3.akamai.net
+a767.dscg3.akamai.net
+
+# Used for updates for Cortana, apps, and Live Tiles
+bing.com/*
+
+# Microsoft Store
+blob.dz5prdstr01a.store.core.windows.net
+
+# Used by OfficeHub to get the metadata of Office apps
+browser.pipe.aria.microsoft.com
+
+# Used for OneNote Live Tile
+cdn.onenote.net/livetile/*
+
+# Office 365 portal and Office in a browser
+client-office365-tas.msedge.net/*
+
+# Microsoft Store
+displaycatalog.mp.microsoft.com/*
+
+# Used to download apps from the Microsoft Store
+emdl.ws.microsoft.com/*
+
+# Photo app
+evoke-windowsservices-tas.msedge.net
+
+# Used by OneDrive for Business to download and verify app updates
+g.live.com*
+
+# Used to retrieve Windows Spotlight metadata
+g.msn.com.nsatc.net
+
+# Microsoft Edge Browser
+iecvlist.microsoft.com
+
+# Maps Application
+maps.windows.com/windows-app-web-link
+
+# Used by Windows Error Reporting
+modern.watson.data.microsoft.com.akadns.net
+
+# OneDrive
+msagfx.live.com
+
+# Used to connect to the Office 365 portal's shared infrastructure
+ocos-office365-s2s.msedge.net/*
+
+# Used by OneDrive for Business to download and verify app updates
+oneclient.sfx.ms/*
+
+# Microsoft Office
+onecollector.cloudapp.aria.akadns.net
+
+# Microsoft Store
+pti.store.microsoft.com
+share.microsoft.com
+
+# Skype
+skypeecs-prod-usw-0.cloudapp.net
+
+# Used to download updates to the Weather app Live Tile
+tile-service.weather.microsoft.com*
+
+# Diagnostic Data
+v10.events.data.microsoft.com*
+
+# Used to serve Office 365 experimentation traffic
+vip5.afdorigin-prod-ch02.afdogw.com
+
+# Used by Windows Error Reporting
+watson.telemetry.microsoft.com*
+
+# Azure
+wd-prod-cp-us-east-1-fe.eastus.cloudapp.azure.com
+
+# Microsoft Office
+wusofficehome.msocdn.com
+
+# Cortana and Search
+www.bing.com
+
+# Diagnostic Data
+www.microsoft.com
+
+# Microsoft Office
+www.office.com
+
+# ===================================
 # THE BELOW DOMAINS ARE FROM THE OFFICIAL WINDOWS 10 ENTERPRISE v1903 DOCUMENTATION: 
 # https://docs.microsoft.com/en-us/windows/privacy/manage-windows-1903-endpoints
+# ===================================
 
 # The following endpoints are used to download updates to the Weather app Live Tile. If you turn off traffic to this endpoint, no Live Tiles will be updated.
 blob.weather.microsoft.com
