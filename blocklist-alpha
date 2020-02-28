@@ -10,31 +10,31 @@
 # ===================================
 
 # Microsoft Office Telemetry
-*.aria.microsoft.com*
+aria.microsoft.com
 
 # Used to check for updates to Maps that have been downloaded for offline use
-*.b.akamai*.net
+b.akamai.net
 
 # Microsoft Office
-*.c-msedge.net
+c-msedge.net
 
 # Used to check for updates to Maps that have been downloaded for offline use
-*.g.akamai*.net
+g.akamai.net
 
 # Windows Spotlight
-*.msn.com*
+msn.com
 
 # Skype
-*.skype.com
+skype.com
 
 # Used by Windows Error Reporting
-*.telecommand.telemetry.microsoft.com*
+telecommand.telemetry.microsoft.com*
 
 # OneNote
 cdn.onenote.net
 
 # Used to communicate with Microsoft Store
-*displaycatalog.mp.microsoft.com
+displaycatalog.mp.microsoft.com
 
 # Microsoft Store or Inbox MSN Apps image download
 img-prod-cms-rt-microsoft-com
@@ -52,10 +52,10 @@ nexusrules.officeapps.live.com
 photos.microsoft.com
 
 # Used to communicate with Microsoft Store
-*purchase.md.mp.microsoft.com.akadns.net
+purchase.md.mp.microsoft.com.akadns.net
 
 # Used for Windows apps to dynamically update their configuration
-*settings.data.microsoft.com.akadns.net
+settings.data.microsoft.com.akadns.net
 
 # Windows Telemetry
 wpc.v0cdn.net
@@ -73,10 +73,10 @@ e-0009.e-msedge.net
 e10198.b.akamaiedge.net
 
 # Photos app
-evoke-windowsservices-tas.msedge*
+evoke-windowsservices-tas.msedge
 
 # OneDrive
-g.live.com*
+g.live.com
 
 # Windows telemetry
 iriscoremetadataprod.blob.core.windows.net
@@ -88,7 +88,7 @@ msagfx.live.com
 officeclient.microsoft.com
 
 # Used by OneDrive for Business to download and verify app updates
-oneclient.sfx.ms*
+oneclient.sfx.ms
 
 # Microsoft Office
 onecollector.cloudapp.aria.akadns.net
@@ -96,11 +96,11 @@ ow1.res.office365.com
 
 # Microsoft Store
 pti.store.microsoft.com
-purchase.mp.microsoft.com*
+purchase.mp.microsoft.com
 
 # Used to retrieve Windows Spotlight metadata
-query.prod.cms.rt.microsoft.com*
-ris.api.iris.microsoft.com*
+query.prod.cms.rt.microsoft.com
+ris.api.iris.microsoft.com
 
 # Azure traffic manager
 ris-prod-atm.trafficmanager.net
@@ -110,15 +110,15 @@ s-0001.s-msedge.net
 self.events.data.microsoft.com
 
 # Used for Windows apps to dynamically update their configuration
-settings.data.microsoft.com*
-settings-win.data.microsoft.com*
+settings.data.microsoft.com
+settings-win.data.microsoft.com
 
 # Microsoft Store
 share.microsoft.com
 skypeecs-prod-usw-0.cloudapp.net
 
 # Used to communicate with Microsoft Store
-store*.dsx.mp.microsoft.com*
+store.dsx.mp.microsoft.com
 
 # Microsoft Store
 storecatalogrevocation.storequality.microsoft.com
@@ -130,7 +130,7 @@ store-images.microsoft.com
 storesdk.dsx.mp.microsoft.com
 
 # Used to download updates to the Weather app Live Tile
-tile-service.weather.microsoft.com*
+tile-service.weather.microsoft.com
 
 # Diagnostic Data
 v10.events.data.microsoft.com
@@ -140,7 +140,7 @@ watson.telemetry.microsoft.com
 wusofficehome.msocdn.com
 
 # Used for updates for Cortana, apps, and Live Tiles
-www.bing.com*
+www.bing.com
 
 # Microsoft Office
 www.office.com
@@ -150,28 +150,28 @@ www.office.com
 # ===================================
 
 # Azure
-*.cloudapp.azure.com
+cloudapp.azure.com
 
 # Microsoft Store
-*.displaycatalog.md.mp.microsoft.com.akadns.net
+displaycatalog.md.mp.microsoft.com.akadns.net
 
 # Used by OfficeHub to get the metadata of Office apps
-*.e-msedge.net
+e-msedge.net
 
 # Used to check for updates to maps that have been downloaded for offline use
-*.g.akamaiedge.net
+g.akamaiedge.net
 
 # Used by OfficeHub to get the metadata of Office apps
-*.s-msedge.net
+s-msedge.net
 
 # Office
-*c-msedge.net
+c-msedge.net
 
 # Maps application
 a1158.g.akamai.net
 
 # Used to retrieve Windows Spotlight metadata
-arc.msn.com*
+arc.msn.com
 
 # Microsoft Store
 blob.mwh01prdstr06a.store.core.windows.net
@@ -259,7 +259,7 @@ storecatalogrevocation.storequality.microsoft.com
 store-images.microsoft.com
 
 # Used to download updates to the Weather app Live Tile
-tile-service.weather.microsoft.com/*
+tile-service.weather.microsoft.com
 
 # Microsoft Office
 v10.events.data.microsoft.com*
@@ -277,7 +277,7 @@ wusofficehome.msocdn.com
 www.bing.com
 
 # Diagnostic
-www.microsoft.com
+# www.microsoft.com
 
 # Microsoft Office
 www.office.com
@@ -287,33 +287,33 @@ www.office.com
 # ===================================
 
 # Used to check for updates to maps that have been downloaded for offline use
-*.b.akamaiedge.net
+b.akamaiedge.net
 
 # Used by OfficeHub to get the metadata of Office apps
-*.c-msedge.net
-*.e-msedge.net
+c-msedge.net
+e-msedge.net
 
 # Used to check for updates to Maps that have been downloaded for offline use
-*.g.akamaiedge.net
+g.akamaiedge.net
 
 # Microsoft Store
-*.licensing.md.mp.microsoft.com.akadns.net
-*.settings.data.microsoft.com.akadns.net
+licensing.md.mp.microsoft.com.akadns.net
+settings.data.microsoft.com.akadns.net
 
 # Used to retrieve Skype configuration values
-*.skype.com*
+skype.com
 
 # Used by OfficeHub to get the metadata of Office apps
-*.s-msedge.net
+s-msedge.net
 
 # Used by Windows Error Reporting
-*.telecommand.telemetry.microsoft.com*
+telecommand.telemetry.microsoft.com*
 
 # Diagnostic Data
-*.wpc.*.net
+wpc.net
 
 # Microsoft Store
-*displaycatalog.md.mp.microsoft.com.akadns.net
+displaycatalog.md.mp.microsoft.com.akadns.net
 
 # Maps
 a1158.g.akamai.net
@@ -321,7 +321,7 @@ a122.dscg3.akamai.net
 a767.dscg3.akamai.net
 
 # Used for updates for Cortana, apps, and Live Tiles
-bing.com/*
+bing.com/
 
 # Microsoft Store
 blob.dz5prdstr01a.store.core.windows.net
@@ -330,22 +330,22 @@ blob.dz5prdstr01a.store.core.windows.net
 browser.pipe.aria.microsoft.com
 
 # Used for OneNote Live Tile
-cdn.onenote.net/livetile/*
+cdn.onenote.net/livetile/
 
 # Office 365 portal and Office in a browser
-client-office365-tas.msedge.net/*
+client-office365-tas.msedge.net/
 
 # Microsoft Store
-displaycatalog.mp.microsoft.com/*
+displaycatalog.mp.microsoft.com/
 
 # Used to download apps from the Microsoft Store
-emdl.ws.microsoft.com/*
+emdl.ws.microsoft.com/
 
 # Photo app
 evoke-windowsservices-tas.msedge.net
 
 # Used by OneDrive for Business to download and verify app updates
-g.live.com*
+g.live.com
 
 # Used to retrieve Windows Spotlight metadata
 g.msn.com.nsatc.net
@@ -363,10 +363,10 @@ modern.watson.data.microsoft.com.akadns.net
 msagfx.live.com
 
 # Used to connect to the Office 365 portal's shared infrastructure
-ocos-office365-s2s.msedge.net/*
+ocos-office365-s2s.msedge.net/
 
 # Used by OneDrive for Business to download and verify app updates
-oneclient.sfx.ms/*
+oneclient.sfx.ms/
 
 # Microsoft Office
 onecollector.cloudapp.aria.akadns.net
@@ -400,7 +400,7 @@ wusofficehome.msocdn.com
 www.bing.com
 
 # Diagnostic Data
-www.microsoft.com
+# www.microsoft.com
 
 # Microsoft Office
 www.office.com
@@ -418,7 +418,7 @@ tile-service.weather.microsoft.com
 cdn.onenote.net/livetile/?Language=en-US
 
 # The following endpoint is used for Twitter updates. 
-.twimg.com
+twimg.com
 
 # The following endpoint is used for Candy Crush Saga updates.
 candycrushsoda.king.com
@@ -460,7 +460,7 @@ spo-ring.msedge.net
 # The following endpoints are used by the Connected User Experiences and Telemetry component and connects to the Microsoft Data Management service.
 v10.events.data.microsoft.com
 v10.vortex-win.data.microsoft.com/collect/v1
-www.microsoft.com
+# www.microsoft.com
 
 # The following endpoints are used by Windows Error Reporting.
 co4.telecommand.telemetry.microsoft.com
@@ -474,16 +474,16 @@ inference.location.live.net
 location-inference-westus.cloudapp.net
 
 # The following endpoints are used to check for updates to maps that have been downloaded for offline use.
-*g.akamaiedge.net
+g.akamaiedge.net
 maps.windows.com
 
 # This traffic is related to the Microsoft Edge browser.
 iecvlist.microsoft.com
 
 # The following endpoints are used to connect to the Office 365 portal's shared infrastructure, including Office in a browser.
-*.c-msedge.net
-*.e-msedge.net
-*.s-msedge.net
+c-msedge.net
+e-msedge.net
+s-msedge.net
 nexusrules.officeapps.live.com
 ocos-office365-s2s.msedge.net
 officeclient.microsoft.com
@@ -514,7 +514,7 @@ s2s.config.skype.com
 skypeecs-prod-usw-0-b.cloudapp.net
 
 # The following endpoints are used to retrieve Windows Spotlight metadata that describes content, such as references to image locations, as well as suggested apps, Microsoft account notifications, and Windows tips. If you turn off traffic for these endpoints, Windows Spotlight will still try to deliver new lock screen images and updated content but it will fail; suggested apps, Microsoft account notifications, and Windows tips will not be downloaded.
-*.search.msn.com
+search.msn.com
 arc.msn.com
 g.msn.com*
 query.prod.cms.rt.microsoft.com
