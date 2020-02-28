@@ -1,14 +1,148 @@
 # Blocklist experiments.
 
-# The following endpoints are for Skype.
-apps.skype.com
-pricelist.skype.com
-ui.skype.com
+# THE BELOW DOMAINS ARE FROM THE OFFICIAL WINDOWS 10 NON-ENTERPRISE v1903 DOCUMENTATION:
+# https://docs.microsoft.com/en-us/windows/privacy/windows-endpoints-1903-non-enterprise-editions
 
-# THE BELOW DOMAINS ARE FROM THE OFFICIAL WINDOWS 10 ENTERPRISE 1903 DOCUMENTATION: 
+# Microsoft Office Telemetry
+*.aria.microsoft.com*
+
+# Used to check for updates to Maps that have been downloaded for offline use
+*.b.akamai*.net
+
+# Microsoft Office
+*.c-msedge.net
+
+# Used to check for updates to Maps that have been downloaded for offline use
+*.g.akamai*.net
+
+# Windows Spotlight
+*.msn.com*
+
+# Skype
+*.skype.com
+
+# Used by Windows Error Reporting
+*.telecommand.telemetry.microsoft.com*
+
+# OneNote
+cdn.onenote.net
+
+# Used to communicate with Microsoft Store
+*displaycatalog.mp.microsoft.com
+
+# Microsoft Store or Inbox MSN Apps image download
+img-prod-cms-rt-microsoft-com
+
+# Related to Maps application
+maps.windows.com
+
+# Used by Microsoft OfficeHub to get the metadata of Microsoft Office apps
+msedge.net
+
+# Microsoft Office Telemetry
+nexusrules.officeapps.live.com
+
+# Photos App
+photos.microsoft.com
+
+# Used to communicate with Microsoft Store
+*purchase.md.mp.microsoft.com.akadns.net
+
+# Used for Windows apps to dynamically update their configuration
+*settings.data.microsoft.com.akadns.net
+
+# Windows Telemetry
+wpc.v0cdn.net
+
+# Spotlight
+arc.msn.com
+
+# OneNote Live Tile
+cdn.onenote.net
+
+# Microsoft Office
+e-0009.e-msedge.net
+
+# Maps application
+e10198.b.akamaiedge.net
+
+# Photos app
+evoke-windowsservices-tas.msedge*
+
+# OneDrive
+g.live.com*
+
+# Windows telemetry
+iriscoremetadataprod.blob.core.windows.net
+
+# OneDrive
+msagfx.live.com
+
+# Microsoft Office
+officeclient.microsoft.com
+
+# Used by OneDrive for Business to download and verify app updates
+oneclient.sfx.ms*
+
+# Microsoft Office
+onecollector.cloudapp.aria.akadns.net
+ow1.res.office365.com
+
+# Microsoft Store
+pti.store.microsoft.com
+purchase.mp.microsoft.com*
+
+# Used to retrieve Windows Spotlight metadata
+query.prod.cms.rt.microsoft.com*
+ris.api.iris.microsoft.com*
+
+# Azure traffic manager
+ris-prod-atm.trafficmanager.net
+
+# Microsoft Office
+s-0001.s-msedge.net
+self.events.data.microsoft.com
+
+# Used for Windows apps to dynamically update their configuration
+settings.data.microsoft.com*
+settings-win.data.microsoft.com*
+
+# Microsoft Store
+share.microsoft.com
+skypeecs-prod-usw-0.cloudapp.net
+
+# Used to communicate with Microsoft Store
+store*.dsx.mp.microsoft.com*
+
+# Microsoft Store
+storecatalogrevocation.storequality.microsoft.com
+
+# Used to get images that are used for Microsoft Store suggestions
+store-images.microsoft.com
+
+# Microsoft Store
+storesdk.dsx.mp.microsoft.com
+
+# Used to download updates to the Weather app Live Tile
+tile-service.weather.microsoft.com*
+
+# Diagnostic Data
+v10.events.data.microsoft.com
+watson.telemetry.microsoft.com
+
+# Microsoft Office
+wusofficehome.msocdn.com
+
+# Used for updates for Cortana, apps, and Live Tiles
+www.bing.com*
+
+# Microsoft Office
+www.office.com
+
+# THE BELOW DOMAINS ARE FROM THE OFFICIAL WINDOWS 10 ENTERPRISE v1903 DOCUMENTATION: 
 # https://docs.microsoft.com/en-us/windows/privacy/manage-windows-1903-endpoints
 
-# "The following endpoints are used to download updates to the Weather app Live Tile. If you turn off traffic to this endpoint, no Live Tiles will be updated."
+# The following endpoints are used to download updates to the Weather app Live Tile. If you turn off traffic to this endpoint, no Live Tiles will be updated.
 blob.weather.microsoft.com
 tile-service.weather.microsoft.com
 
